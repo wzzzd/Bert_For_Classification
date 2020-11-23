@@ -10,7 +10,7 @@ from DataManager import DataManager
 from process import train, eval, infer
 import argparse
 
-parser = argparse.ArgumentParser(description='Bert-based Classification')
+# parser = argparse.ArgumentParser(description='Bert-based Classification')
 # parser.add_argument('--model', default='TextCNN', type=str, required=False, help='choose a model: TextCNN, TextRNN, FastText, TextRCNN, TextRNN_Att, DPCNN, Transformer')
 # parser.add_argument('--embedding', default='pre_trained', type=str, help='random or pre_trained')
 # parser.add_argument('--word', default=False, type=bool, help='True for word, False for char')
